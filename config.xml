@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	id = "com.pinoyhoroscopes.app"
+	version = "1.0.0">
+	<name>TheFullPlateApp</name>
+	<description>Beta Test app</description>
+	<author href="Your website" email="Your email">jaywilzen@live.com</author>
+	<preference name="phonegap-version"       value="cli-6.3.0" />
+	<preference name="permissions" value="none"/>
+	<preference name="android-build-tool" value="gradle"/>
+    <preference name="orientation"                value="default" />
+    <preference name="fullscreen"                 value="true" />
+	<preference name="android-installLocation"    value="auto" />
+	<preference name="DisallowOverscroll" value="true"/>
+	<plugin name="cordova-plugin-inappbrowser" />
+	<plugin name="cordova-plugin-whitelist" />
+	<plugin name="cordova-plugin-splashscreen" />
+	<plugin name="cordova-plugin-device" />
+	<preference name="Splash.png"               value="splash" />
+	<preference name="AutoHideSplashScreen"       value="true" />
+	<preference name="SplashScreenDelay"          value="5000" />
+	<preference name="SplashMaintainAspectRatio"  value="true" />
+	<preference name="FadeSplashScreen"           value="true"/>
+	<preference name="ShowSplashScreenSpinner"    value="false" />
+	<platform name="android">
+    <icon src="Icon36.png" />
+	<icon src="Icon48.png" />
+	<icon src="Icon72.png" />
+	<icon src="Icon96.png" />
+	<icon src="Icon144.png" />
+	<icon src="Icon192.png" />
+    <splash src="SplashXXXHDPIP.png" />
+	<splash src="SplashXXXHDPIL.png" />
+	<splash src="SplashXXHDPIP.png" />
+	<splash src="SplashXXHDPIL.png" />
+	<splash src="SplashXHDPIP.png" />
+	<splash src="SplashXHDPIL.png" />
+	<splash src="SplashHDPIP.png" />
+	<splash src="SplashHDPIL.png" />
+	<splash src="SplashMDPIP.png" />
+	<splash src="SplashMDPIL.png" />
+	<splash src="SplashLDPIP.png" />
+	<splash src="SplashLDPIL.png" />
+	</platform>
+	
+	<allow-navigation href="https://www.thefullplateapp.com/mob/*" />
+	
+</widget>
